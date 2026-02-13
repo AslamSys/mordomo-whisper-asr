@@ -2,7 +2,7 @@
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -193,7 +193,7 @@ Performance (Orange Pi 5):
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -223,7 +223,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -248,7 +248,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -280,7 +280,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -305,7 +305,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -336,7 +336,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -361,7 +361,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -392,7 +392,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -416,7 +416,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -440,7 +440,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -464,7 +464,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -488,7 +488,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -512,7 +512,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -540,7 +540,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -567,7 +567,7 @@ topic: "audio.raw"
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -604,7 +604,7 @@ topic: "audio.raw"
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -643,7 +643,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -682,7 +682,7 @@ payload: {
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -771,7 +771,7 @@ output:
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -798,7 +798,7 @@ whisper_active_sessions  # número de sessões ativas
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -826,7 +826,7 @@ whisper_realtime_factor  # quanto mais rápido que realtime
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -854,7 +854,7 @@ whisper_sentences_total  # frases completas
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -882,7 +882,7 @@ whisper_final_transcriptions_total
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -933,7 +933,7 @@ FROM debian:bookworm-slim
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -963,7 +963,7 @@ RUN apt-get update && apt-get install -y \
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -992,7 +992,7 @@ RUN git clone https://github.com/ggerganov/whisper.cpp.git && \
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
@@ -1019,7 +1019,7 @@ RUN cd whisper.cpp/models && \
 
 ## 🔗 Navegação
 
-**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/aslam/README.md)** → **mordomo-whisper-asr**
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Aslam (Orange Pi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/mordomo%20-%20(orange-pi-5-16gb)/README.md)** → **mordomo-whisper-asr**
 
 ### Containers Relacionados (aslam)
 - [mordomo-audio-bridge](https://github.com/AslamSys/mordomo-audio-bridge)
