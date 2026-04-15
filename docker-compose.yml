@@ -1,0 +1,22 @@
+services:
+  whisper-asr:
+    build: .
+    image: aslamsys/mordomo-whisper-asr:latest
+    container_name: whisper-asr
+    restart: unless-stopped
+    environment:
+      - NATS_URL=nats://nats:4222
+      - ZMQ_VAD_URL=tcp://audio-capture-vad:5555
+      - WHISPER_MODEL=base
+      - WHISPER_COMPUTE_TYPE=int8
+      - WHISPER_LANGUAGE=pt
+      - SILENCE_TIMEOUT_S=1.5
+    depends_on:
+      - nats
+      - audio-capture-vad
+    networks:
+      - mordomo-net
+
+networks:
+  mordomo-net:
+    external: true

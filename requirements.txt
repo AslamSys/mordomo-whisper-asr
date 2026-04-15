@@ -1,0 +1,5 @@
+faster-whisper==1.0.3
+ctranslate2==4.4.0
+nats-py==2.7.2
+pyzmq==25.1.2
+numpy==1.26.4
