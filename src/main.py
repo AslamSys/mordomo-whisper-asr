@@ -34,6 +34,7 @@ class WhisperASRService:
         self.audio_buffer = bytearray()
         self.transcript_buffer: list[dict] = []
         self.conversation_id: str | None = None
+        self.speaker_id: str | None = None
         self.last_audio_time: float = 0.0
         self._zmq_thread: threading.Thread | None = None
         self._running = False
@@ -45,10 +46,10 @@ class WhisperASRService:
         self.nc = await nats.connect(config.NATS_URL)
         logger.info("Connected to NATS at %s", config.NATS_URL)
 
-        await self.nc.subscribe("wake_word.detected", cb=self._on_wake_word)
-        await self.nc.subscribe("speaker.verified", cb=self._on_speaker_verified)
-        await self.nc.subscribe("speaker.rejected", cb=self._on_speaker_rejected)
-        await self.nc.subscribe("conversation.ended", cb=self._on_conversation_ended)
+        await self.nc.subscribe("mordomo.wake_word.detected", cb=self._on_wake_word)
+        await self.nc.subscribe("mordomo.speaker.verified", cb=self._on_speaker_verified)
+        await self.nc.subscribe("mordomo.speaker.rejected", cb=self._on_speaker_rejected)
+        await self.nc.subscribe("mordomo.conversation.ended", cb=self._on_conversation_ended)
 
         asyncio.create_task(self._heartbeat_loop())
         asyncio.create_task(self._silence_monitor())
@@ -103,12 +104,13 @@ class WhisperASRService:
             data = {}
 
         self.state = State.BUFFERING
-        self.conversation_id = data.get("conversation_id")
+        self.conversation_id = data.get("session_id") or data.get("conversation_id")
+        self.speaker_id = None
         self.audio_buffer.clear()
         self.transcript_buffer.clear()
         self.last_audio_time = time.time()
         self._start_zmq_listener()
-        logger.info("wake_word.detected → BUFFERING (conv=%s)", self.conversation_id)
+        logger.info("mordomo.wake_word.detected → BUFFERING (conv=%s)", self.conversation_id)
 
     async def _on_speaker_verified(self, msg):
         if self.state != State.BUFFERING:
@@ -119,8 +121,8 @@ class WhisperASRService:
             data = {}
 
         self.state = State.TRANSCRIBING
-        user_id = data.get("user_id", "unknown")
-        logger.info("speaker.verified → TRANSCRIBING (user=%s)", user_id)
+        self.speaker_id = data.get("speaker_id", "unknown")
+        logger.info("mordomo.speaker.verified → TRANSCRIBING (speaker=%s)", self.speaker_id)
 
         await self._flush_buffer()
 
@@ -128,10 +130,11 @@ class WhisperASRService:
         if self.state != State.BUFFERING:
             return
         self.state = State.IDLE
+        self.speaker_id = None
         self.audio_buffer.clear()
         self.transcript_buffer.clear()
         self._stop_zmq_listener()
-        logger.info("speaker.rejected → IDLE (buffer discarded)")
+        logger.info("mordomo.speaker.rejected → IDLE (buffer discarded)")
 
     async def _on_conversation_ended(self, msg):
         if self.state == State.IDLE:
@@ -164,6 +167,7 @@ class WhisperASRService:
 
         payload = {
             "text": text,
+            "speaker_id": self.speaker_id or "unknown",
             "language": result.get("language", config.WHISPER_LANGUAGE),
             "conversation_id": self.conversation_id,
             "is_final": is_final,
@@ -171,7 +175,7 @@ class WhisperASRService:
             "segments": result.get("segments", []),
         }
 
-        subject = "speech.transcribed"
+        subject = "mordomo.speech.transcribed"
         await self.nc.publish(subject, json.dumps(payload).encode())
         logger.info(
             "Published %s: is_final=%s text='%s'",
