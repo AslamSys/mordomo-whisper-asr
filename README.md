@@ -87,11 +87,20 @@
 
 **Linguagem:** Python
 
-**Principal:** `faster-whisper` (CTranslate2)
+**ASR Primário:** Groq Cloud ASR (`whisper-large-v3-turbo`)
+- **Endpoint:** `https://api.groq.com/openai/v1/audio/transcriptions`
+- **Modelo:** whisper-large-v3-turbo (hospedado pela Groq)
+- **Latência:** ~300-500ms (rede incluída)
+- **Qualidade:** WER ~10-12% em PT-BR (superior ao base local)
+- **Timeout:** 5s (configurável via `GROQ_ASR_TIMEOUT`)
+- **Backoff:** após 5 falhas consecutivas, retenta a cada request
+
+**ASR Fallback:** `faster-whisper` (CTranslate2) — sempre quente na RAM
 - **Engine:** CTranslate2 (Inference Engine otimizado para Transformers)
 - **Performance:** ~4x a 8x mais rápido que `openai-whisper` original
 - **Quantização:** INT8 (Padrão) - Perda imperceptível, ganho massivo de velocidade
-- **VRAM/RAM:** Uso reduzido de memória
+- **RAM:** ~388MB (modelo base carregado permanentemente)
+- **Uso:** automático quando Groq falha ou está em backoff
 
 **Modelos:**
 - `tiny` - Rápido, precisão ok

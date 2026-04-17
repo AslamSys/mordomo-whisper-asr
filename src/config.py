@@ -6,7 +6,13 @@ NATS_URL = os.getenv("NATS_URL", "nats://nats:4222")
 ZMQ_VAD_URL = os.getenv("ZMQ_VAD_URL", "tcp://audio-capture-vad:5555")
 ZMQ_TOPIC = os.getenv("ZMQ_TOPIC", "audio.raw")
 
-# Whisper model
+# Groq Cloud ASR (primary)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_ASR_MODEL = os.getenv("GROQ_ASR_MODEL", "whisper-large-v3-turbo")
+GROQ_ASR_URL = "https://api.groq.com/openai/v1/audio/transcriptions"
+GROQ_ASR_TIMEOUT = float(os.getenv("GROQ_ASR_TIMEOUT", "5.0"))
+
+# Local Whisper (fallback — always loaded in memory)
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "base")
 WHISPER_DEVICE = os.getenv("WHISPER_DEVICE", "cpu")
 WHISPER_COMPUTE_TYPE = os.getenv("WHISPER_COMPUTE_TYPE", "int8")
