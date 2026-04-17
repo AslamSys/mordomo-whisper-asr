@@ -10,9 +10,10 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Pre-download whisper base model at build time (files only, avoid engine init crash in QEMU)
-RUN python -c "from faster_whisper.utils import download_model; \
-    download_model('base', output_dir='/app/models/whisper-base')"
+# Pre-download whisper base model at build time (files only, avoid faster-whisper/ctranslate2 import crash in QEMU)
+RUN pip install huggingface_hub && \
+    python -c "from huggingface_hub import snapshot_download; \
+    snapshot_download(repo_id='Systran/faster-whisper-base', local_dir='/app/models/whisper-base')"
 
 ENV WHISPER_MODEL=/app/models/whisper-base
 
