@@ -50,6 +50,9 @@ class WhisperASRService:
         await self.nc.subscribe("mordomo.speaker.verified", cb=self._on_speaker_verified)
         await self.nc.subscribe("mordomo.speaker.rejected", cb=self._on_speaker_rejected)
         await self.nc.subscribe("mordomo.conversation.ended", cb=self._on_conversation_ended)
+        
+        # DEBUG FALLBACK: Accept audio injection via NATS when active
+        await self.nc.subscribe("mordomo.audio.stream", cb=self._on_nats_audio)
 
         asyncio.create_task(self._heartbeat_loop())
         asyncio.create_task(self._silence_monitor())
@@ -94,6 +97,16 @@ class WhisperASRService:
         sock.close()
         ctx.term()
         logger.info("ZMQ listener stopped")
+
+    async def _on_nats_audio(self, msg):
+        """Handler for audio injected via NATS (debug/monitor channel)."""
+        with self._lock:
+            if self.state in (State.BUFFERING, State.TRANSCRIBING):
+                self.audio_buffer.extend(msg.data)
+                self.last_audio_time = time.time()
+                # Maintain buffer safety
+                if len(self.audio_buffer) > config.BUFFER_MAX_SAMPLES * 2:
+                    self.audio_buffer = self.audio_buffer[-(config.BUFFER_MAX_SAMPLES * 2):]
 
     async def _on_wake_word(self, msg):
         if self.state != State.IDLE:
