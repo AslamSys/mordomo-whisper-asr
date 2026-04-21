@@ -163,6 +163,15 @@ class WhisperASRService:
         self._stop_zmq_listener()
         logger.info("conversation.ended → IDLE")
 
+    async def _on_nats_audio(self, msg):
+        """Handle virtual audio stream from NATS (Browser/PC)."""
+        with self._lock:
+            if self.state in (State.BUFFERING, State.TRANSCRIBING):
+                self.audio_buffer.extend(msg.data)
+                self.last_audio_time = time.time()
+                if len(self.audio_buffer) > config.BUFFER_MAX_SAMPLES * 2:
+                    self.audio_buffer = self.audio_buffer[-(config.BUFFER_MAX_SAMPLES * 2):]
+
     async def _flush_buffer(self, is_final: bool = False):
         with self._lock:
             if len(self.audio_buffer) < config.SAMPLE_RATE * 2 * 0.3:
